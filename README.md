@@ -6,6 +6,9 @@ A full-stack investment portfolio tracker built with **Spring Boot** and **React
 
 ---
 
+<img width="1884" height="1012" alt="Screenshot 2026-04-16 at 09 46 09" src="https://github.com/user-attachments/assets/7033a255-33bf-4a74-a42f-3671c05df7cf" />
+
+
 ## Features
 
 - **Dashboard** — Total portfolio value, return, day change, allocation charts
