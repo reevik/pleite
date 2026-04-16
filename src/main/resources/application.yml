@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: portfolio-manager
+
+  datasource:
+    url: jdbc:h2:file:./data/portfolio
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+server:
+  port: 8080
+
+jwt:
+  secret: "pf-m4n4g3r-s3cr3t-k3y-ch4ng3-in-pr0duct10n-2024-must-be-256-bits-long!"
+  expiration-ms: 86400000  # 24 hours
+
+logging:
+  level:
+    com.portfolio: INFO
+    org.springframework.web: WARN
