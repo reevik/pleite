@@ -1,4 +1,4 @@
-# Folio — Portfolio Manager
+# Pleite — Portfolio Manager
 
 A full-stack investment portfolio tracker built with **Spring Boot** and **React**, featuring live market data from Yahoo Finance, PDF statement import, and a polished dark UI inspired by Parqet.
 
